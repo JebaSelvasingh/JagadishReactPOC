@@ -61,7 +61,6 @@ function App() {
   };
 const deleteParent = (id, index) => {
    let filteredValue =  data.filter((x, id) => index !== id);
-   console.log("Filtered Value : ", filteredValue)
     setData(filteredValue);
     expandRowFunction();
     // setExpandedRows([index]);
